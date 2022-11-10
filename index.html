@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer type="module" src="js/main.js"></script>
+  <title>Тестовое</title>
+</head>
+
+<body>
+  <!--========== MAIN ==========-->
+  <main class="main">
+    <video class="video" loop="loop" autoplay muted preload>
+      <source src="video/video-bg.mp4" type="video/mp4" />
+      <source src="video/video-bg.ogv" type="video/ogv" />
+      <source src="video/video-bg.webm" type="video/webm" />
+    </video>
+    <!--========== MODAL ==========-->
+    <div class="modal" data-modal-target="#modal">
+      <div class="modal__inner show" data-radio>
+        <div class="modal__close" data-close></div>
+        <div class="modal__content">
+          <h3>Тестовое задание для разработчика Тестовое задание для разработчика</h3>
+          <div class="radio-content">
+            <div class="radio-block">
+              <input class="radio" type="radio" name="radio" value="">
+              <label for="radio">Тестовое задание для разработчика</label>
+            </div>
+            <div class="radio-block">
+              <input class="radio" type="radio" name="radio" value="">
+              <label for="radio">Тестовое задание для разработчика</label>
+            </div>
+            <div class="radio-block">
+              <input class="radio" type="radio" name="radio" value="">
+              <label for="radio">Тестовое задание для разработчика</label>
+            </div>
+            <div class="radio-block">
+              <input class="radio" type="radio" name="radio" value="">
+              <label for="radio">Тестовое задание для разработчика</label>
+            </div>
+            <div class="radio-block">
+              <input class="radio" type="radio" name="radio" value="">
+              <label for="radio">Тестовое задание для разработчика</label>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-prev" data-close-button>
+          <img src="img/arrow.svg" alt="arrow" data-close-button>
+          <p data-close-button>Назад</p>
+        </button>
+        <button disabled="true" class="btn btn-next disabled" data-button-next>
+          <p>Далее</p>
+          <img src="img/arrow.svg" alt="arrow">
+        </button>
+      </div>
+      <div class="modal__inner" data-form>
+        <div class="modal__close" data-close></div>
+        <div class="modal__content">
+          <form class="form">
+            <label>
+              <div class="label__text">
+                Введите имя
+              </div>
+              <input class="input name-input" type="text" name="name">
+            </label>
+            <label>
+              <div class="label__text">
+                Введите фамилию
+              </div>
+              <input class="input lastname-input" type="text" name="last-name">
+            </label>
+            <label>
+              <div class="label__text">
+                Введите E-mail
+              </div>
+              <input class="input email-input" type="email" name="email">
+            </label>
+            <label>
+              <div class="label__text">
+                <span>+380</span> (99) 999-99-99
+              </div>
+              <input class="input phone-input" type="phone" name="phone">
+            </label>
+          </form>
+        </div>
+        <button class="btn btn-prev" data-button-prev>
+          <img src="img/arrow.svg" alt="arrow">
+          <p>Назад</p>
+        </button>
+        <button disabled="true" class="btn btn-next btn-submit disabled">
+          <p>Регистрироваться</p>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Тестовое задание для <br>разработчика <span>Тестовое задание</span> <br>для разработчика</h1>
+      <h2>Тестовое задание для разработчика</h2>
+      <p>Вы получаете:</p>
+      <ul>
+        <li>Тестовое задание для разработчика</li>
+        <li>Тестовое задание для разработчика</li>
+        <li>Тестовое задание для разработчика</li>
+      </ul>
+      <div>
+        <button class="btn btn-registration" data-open-modal>Регистрироваться</button>
+      </div>
+    </div>
+  </main>
+  <!--========== FOOTER ==========-->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer__block time-money">
+        <div class="footer__block-square">
+
+          <div class="square-img">
+            <img src="img/time.svg" alt="время">
+            <div class="square-small"></div>
+            <div class="square-large"></div>
+          </div>
+        </div>
+        <div class="footer__block-text">
+          <p>Тестовое задание для разработчика</p>
+          <p>Тестовое задание для разработчика</p>
+          <p>Тестовое задание для разработчика</p>
+        </div>
+      </div>
+      <div class="footer__block time-money">
+        <div class="footer__block-square">
+          <div class="square-img">
+            <img class="aaa" src="img/money.svg" alt="время">
+            <div class="square-small"></div>
+            <div class="square-large"></div>
+          </div>
+        </div>
+        <div class="footer__block-text">
+          <p>Тестовое задание Тестовое задание для разработчика</p>
+          <p>Тестовое задание Тестовое задание для разработчика</p>
+        </div>
+      </div>
+      <div class="footer__block wallet-block">
+        <div class="footer__block-square">
+          <div class="square-img">
+            <img src="img/wallet.svg" alt="время">
+            <div class="square-small"></div>
+            <div class="square-large"></div>
+          </div>
+        </div>
+        <div class="footer__block-text">
+          <p>Тестовое задание для разработчика</p>
+          <p>Тестовое задание для разработчика</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
